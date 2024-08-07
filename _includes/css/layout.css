@@ -65,6 +65,8 @@ ul.item__cards li a {
 ul.item__cards li a:hover, ul.item__cards li a:active {
   text-decoration: none;
   background-color: var(--color-primary-tint);
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 ul.item__cards figure {
@@ -88,7 +90,9 @@ ul.item__cards li img:active, ul.item__cards li img:hover {
 
 @media only screen and (max-width: $breakpoint-medium) {
   ul.item__cards li {
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -106,3 +110,34 @@ ul.item__cards li:nth-child(5n+3)   { rotate: -7deg; }
 ul.item__cards li:nth-child(11n+5)  { rotate: 10deg; }
 ul.item__cards li:nth-child(13n+11) { rotate: -13deg; }
 ul.item__cards li:nth-child(17n+13) { rotate: 15deg; }
+
+
+.paginate {
+  text-align: center;
+}
+
+.paginate__nav {
+  display: inline-block;
+  margin: var(--space-m) auto;
+  padding: var(--space-2xs) 0;
+  border-radius: var(--border-radius-largest);
+  background-color: var(--bg-color-mark);
+}
+
+.paginate__nav--pages {
+  padding: var(--space-2xs) var(--space-s);
+  border-radius: var(--border-radius-largest);
+  background-color: var(--bg-color-mark);
+}
+
+.paginate__nav a {
+  text-decoration: none;
+  padding: var(--space-2xs) var(--space-s);
+  border-radius: var(--border-radius-largest);
+  background-color: var(--bg-color-mark);
+}
+
+.paginate__nav a:hover, .paginate__nav a:active {
+  text-decoration: none;
+  background-color: var(--bg-color-mark-active);
+}

@@ -26,6 +26,7 @@
 	margin-inline: auto;
 }
 
+
 .post-nav {
 	max-width: var(--body-width-ideal);
 	margin: var(--space-s) auto;
@@ -34,7 +35,7 @@
 	display: flex;
 	justify-content: space-between;
 
-	background-color: var(--color-primary-shade);
+	background-color: var(--bg-color-mark);
 	border-radius: var(--border-radius-largest);
 }
 
@@ -46,7 +47,7 @@
 
 .post-nav a:active, .post-nav a:hover {
 	text-decoration: none;
-	background-color: var(--color-primary-tint);
+	background-color: var(--bg-color-mark-active);
 }
 
 .post-nav__prev,

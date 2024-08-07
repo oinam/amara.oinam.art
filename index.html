@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ul role="list" class="item__cards">
-	{%- for post in site.posts limit: 99 -%}
+	{%- for post in paginator.posts -%}
 	<li>
 		<a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}" title="{{ post.title }}">
 			<figure>
@@ -15,3 +15,17 @@ layout: default
 	</li>
 	{%- endfor -%}
 </ul>
+
+<div class="paginate">
+	<nav class="paginate__nav">
+	  {% if paginator.previous_page %}
+	    <a href="{{ paginator.previous_page_path }}">← Prev</a>
+	  {% else %}
+	  {% endif %}
+	  <span class="paginate__nav--pages">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+	  {% if paginator.next_page %}
+	    <a href="{{ paginator.next_page_path }}">Next →</a>
+	  {% else %}
+	  {% endif %}
+	</nav>
+</div>

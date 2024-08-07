@@ -15,6 +15,9 @@ highlighter: rouge
 permalink: pretty
 permalink: /:title/
 
+paginate: 12
+paginate_path: "/page:num/"
+
 feed:
   posts_limit: 10
   author: Amara
