@@ -1,0 +1,62 @@
+title: 'Amara’s Art'
+description: 'I’m Amara Oinam. I love to draw, illustrate, and sketch.'
+
+url: 'https://amara.oinam.art'
+baseurl: ''
+
+file_path: 'art'
+file_format: 'webp'
+file_thumb: '-thumb'
+file_thumb_format: 'webp'
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: pretty
+permalink: /:title/
+
+feed:
+  posts_limit: 10
+  author: Amara
+
+sass:
+  style: compressed
+  sourcemap: never
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  
+optional_front_matter:
+  remove_originals: true
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: '_posts'
+      type: 'posts'
+    values:
+      layout: 'post'
+      permalink: '/:year/:title/'
+  - scope:
+      path: '_redirect'
+      type: 'pages'
+    values:
+      layout: 'redirect'
+
+collections:
+  redirect:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gemfiles/
+  - README.*

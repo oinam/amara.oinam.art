@@ -1,0 +1,76 @@
+header {
+  margin: var(--space-m) auto;
+  text-align: center;
+}
+
+.logo {}
+.logo a {
+  color: var(--color-primary);
+}
+
+.logo a:hover, .logo a:active {
+  color: var(--color-primary-tint);
+}
+
+.description {
+  font-size: larger;
+  font-weight: 200;
+}
+
+footer {
+  text-align: center;
+  padding: var(--space-s);
+}
+
+footer nav {
+  text-transform: uppercase;
+}
+
+footer nav a {
+  padding-inline: var(--space-2xs);
+}
+
+.container {
+  max-width: var(--body-width-max);
+  padding-inline: var(--container-padding-inline);
+  margin-inline: auto;
+}
+
+/* List Card Items */
+ul.item__cards {
+	display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: var(--space-m);
+  row-gap: var(--space-m);
+
+  padding: 0;
+  margin: var(--space-m) 0;
+}
+
+ul.item__cards li {
+  width: var(--image-thumb-width);
+  height: auto;
+}
+
+ul.item__cards figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul.item__cards figcaption {
+  padding-inline: var(--border-radius);
+}
+
+ul.item__cards li img {
+  width: 100%;
+}
+
+@media only screen and (max-width: $breakpoint-medium) {
+  ul.item__cards li {
+    width: 100%;
+  }
+}
