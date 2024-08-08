@@ -25,10 +25,13 @@
 
 {% assign cacheBust = site.time | date:'?v=%Y%b%d' %}
 <link rel="stylesheet" href="{{ "/styles.css" | relative_url | append: cacheBust }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
 
 <link rel="preload" href="/static/fonts/loveyalikeasister-regular.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="preload" href="/static/fonts/loveyalikeasister-regular.woff" as="font" type="font/woff" crossorigin="">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+
+<link rel="prefetch" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">
+<link rel="prefetch" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">
 
 {% include analytics-posthog.html %}
 
