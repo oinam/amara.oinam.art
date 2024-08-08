@@ -97,19 +97,19 @@ ul.item__cards li img:active, ul.item__cards li img:hover {
 }
 
 /* let's try some pseudo random, following the cicada principle */
-ul.item__cards li:nth-child(2n)  { rotate: 3deg; }
-ul.item__cards li:nth-child(3n)  { rotate: -5deg; }
-ul.item__cards li:nth-child(5n)  { rotate: 7deg; }
-ul.item__cards li:nth-child(11n) { rotate: -10deg; }
-ul.item__cards li:nth-child(13n) { rotate: 13deg; }
-ul.item__cards li:nth-child(17n) { rotate: -15deg; }
+ul.item__cards li:nth-child(2n)  { rotate: 1deg; }
+ul.item__cards li:nth-child(3n)  { rotate: -2deg; }
+ul.item__cards li:nth-child(5n)  { rotate: 3deg; }
+ul.item__cards li:nth-child(11n) { rotate: -4deg; }
+ul.item__cards li:nth-child(13n) { rotate: 5deg; }
+ul.item__cards li:nth-child(17n) { rotate: -6deg; }
 
-ul.item__cards li:nth-child(2n+1)   { rotate: -3deg; }
-ul.item__cards li:nth-child(3n+2)   { rotate: 5deg; }
-ul.item__cards li:nth-child(5n+3)   { rotate: -7deg; }
-ul.item__cards li:nth-child(11n+5)  { rotate: 10deg; }
-ul.item__cards li:nth-child(13n+11) { rotate: -13deg; }
-ul.item__cards li:nth-child(17n+13) { rotate: 15deg; }
+ul.item__cards li:nth-child(2n+1)   { rotate: -1deg; }
+ul.item__cards li:nth-child(3n+2)   { rotate: 2deg; }
+ul.item__cards li:nth-child(5n+3)   { rotate: -3deg; }
+ul.item__cards li:nth-child(11n+5)  { rotate: 4deg; }
+ul.item__cards li:nth-child(13n+11) { rotate: -5deg; }
+ul.item__cards li:nth-child(17n+13) { rotate: 6deg; }
 
 
 .paginate {
