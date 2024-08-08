@@ -7,8 +7,8 @@ layout: default
 	<li>
 		<a href="{{ site.baseurl | prepend: site.url }}{{ post.url }}" title="{{ post.title }}">
 			<figure>
-				<img loading="lazy"
-					src="/{{ site.file_path }}/{{ post.image }}{{ site.file_thumb }}.{{ site.file_thumb_format}}">
+				<img alt="{{ post.title }}" width="300" height="400"
+				src="/{{ site.file_path }}/{{ post.image }}{{ site.file_thumb }}.{{ site.file_thumb_format}}">
 				<figcaption>{{ post.title }}</figcaption>
 			</figure>
 		</a>
