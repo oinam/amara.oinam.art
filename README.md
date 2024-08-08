@@ -4,7 +4,7 @@
 
 ## Todo
 
-- [] Pagination
+- [] Bring in Web-Font in-house
 
 ### Info
 
