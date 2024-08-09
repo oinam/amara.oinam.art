@@ -4,7 +4,7 @@
 
 ## Todo
 
-- [] Bring in Web-Font in-house
+- [x] Bring in web-font in-house
 
 ### Info
 
