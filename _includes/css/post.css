@@ -24,6 +24,8 @@
 .post__content {
 	max-width: var(--body-width-ideal);
 	margin-inline: auto;
+	padding-inline: var(--space-xs);
+	font-family: var(--font-family-serif);
 }
 
 

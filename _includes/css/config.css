@@ -54,10 +54,6 @@
   
   --font-family: "Love Ya Like A Sister", var(--font-family-serif);
 
-  --container-max-width: 76rem;
-  --container-padding-inline: var(--space-xs);
-  --flow-space: var(--space-m);
-
   --color-dark: #262626;
   --color-dark-tint: #525252;
 
@@ -84,6 +80,10 @@
   --body-width-ideal:   42rem;
   --body-width-max:     76rem;
   --body-width-full:    1240px;
+
+  --container-max-width: var(--body-width-max);
+  --container-padding-inline: var(--space-xs);
+  --flow-space: var(--space-m);
   
   --embed-video-height: calc(0.5625 * var(--body-width-ideal)); /* manual height based on the ideal width against the video ratio, mostly youtube which is 315/560=0.5625 */
 
