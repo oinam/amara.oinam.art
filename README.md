@@ -4,7 +4,10 @@
 
 ## Todo
 
-- [x] Bring in web-font in-house
+- [x] Bring in web-font in-house.
+- [ ] Find a lighter web-font. Still fun, cute, and silly.
+- [ ] Optimize the static assets, especially for the homepage.
+- [ ] Create the nothing page.
 
 ### Info
 

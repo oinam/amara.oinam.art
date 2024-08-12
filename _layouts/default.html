@@ -23,8 +23,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#fafafa">
 
-{% assign cacheBust = site.time | date:'?v=%Y%b%d' %}
-<link rel="stylesheet" href="{{ "/styles.css" | relative_url | append: cacheBust }}">
+<link rel="stylesheet" href="/styles.css">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
 
 <link rel="preload" href="/static/fonts/loveyalikeasister-regular.woff2" as="font" type="font/woff2" crossorigin="">
@@ -42,7 +41,7 @@
 <body>
 
   <header class="container">
-    <h1 class="logo"><a href="{{ site.baseurl | prepend: site.url }}/" title="{{ site.title }}">{{ site.title }}</a></h1>
+    <h1 class="logo"><a href="/" title="{{ site.title }}">{{ site.title }}</a></h1>
     <p class="description">{{ site.description }}</p>
   </header>
   
@@ -52,8 +51,8 @@
 
   <footer class="container">
     <nav>
-      <a href="{{ site.baseurl | prepend: site.url }}/">Home</a>
-      <a href="{{ site.baseurl | prepend: site.url }}/feed.xml">Feed</a>
+      <a href="/">Home</a>
+      <a href="/feed.xml">Feed</a>
       <a href="mailto:amara.art@oinam.com">Email</a>
     </nav>
     <p>
