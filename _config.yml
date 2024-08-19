@@ -15,7 +15,7 @@ highlighter: rouge
 permalink: pretty
 permalink: /:title/
 
-paginate: 12
+paginate: 9
 paginate_path: "/page:num/"
 
 feed:

@@ -40,9 +40,9 @@ footer nav a {
 ul.item__cards {
 	display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   gap: var(--space-m);
   row-gap: var(--space-l);
 

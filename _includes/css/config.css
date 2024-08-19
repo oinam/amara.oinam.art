@@ -78,7 +78,7 @@
   
   --body-width:         96%;
   --body-width-ideal:   42rem;
-  --body-width-max:     76rem;
+  --body-width-max:     60rem;
   --body-width-full:    1240px;
 
   --container-max-width: var(--body-width-max);
