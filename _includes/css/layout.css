@@ -66,6 +66,7 @@ ul.item__cards li a:hover, ul.item__cards li a:active {
   text-decoration: none;
   background-color: var(--color-primary-tint);
 
+  /* https://getcssscan.com/css-box-shadow-examples */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -97,12 +98,12 @@ ul.item__cards li img:active, ul.item__cards li img:hover {
 }
 
 /* let's try some pseudo random, following the cicada principle */
-ul.item__cards li:nth-child(2n)  { rotate: 1deg; }
-ul.item__cards li:nth-child(3n)  { rotate: -2deg; }
-ul.item__cards li:nth-child(5n)  { rotate: 3deg; }
-ul.item__cards li:nth-child(11n) { rotate: -4deg; }
-ul.item__cards li:nth-child(13n) { rotate: 5deg; }
-ul.item__cards li:nth-child(17n) { rotate: -6deg; }
+ul.item__cards li:nth-child(2n)     { rotate: 1deg; }
+ul.item__cards li:nth-child(3n)     { rotate: -2deg; }
+ul.item__cards li:nth-child(5n)     { rotate: 3deg; }
+ul.item__cards li:nth-child(11n)    { rotate: -4deg; }
+ul.item__cards li:nth-child(13n)    { rotate: 5deg; }
+ul.item__cards li:nth-child(17n)    { rotate: -6deg; }
 
 ul.item__cards li:nth-child(2n+1)   { rotate: -1deg; }
 ul.item__cards li:nth-child(3n+2)   { rotate: 2deg; }
