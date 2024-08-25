@@ -23,6 +23,7 @@ footer {
 }
 
 footer nav {
+  margin: var(--space-m) auto;
   text-transform: uppercase;
 }
 

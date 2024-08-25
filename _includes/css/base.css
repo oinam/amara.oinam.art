@@ -27,6 +27,15 @@ a:not([class]) {
   }
 }
 
+a.highlight {
+  color: var(--color-primary-shade);
+}
+
+a.highlight:hover, a.highlight:active {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3 {}
