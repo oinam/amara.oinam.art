@@ -2,17 +2,16 @@
 layout: default
 ---
 
-<figure class="post__art">
-  <img
-    alt="{{ page.title }}"
-    src="/{{ site.file_path }}/{{ page.image }}.{{ site.file_format}}">
-  <figcaption>
-    <h2>{{ page.title }}</h2>
-    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%a, %b %-d, %Y' }}</time>
-  </figcaption>
-</figure>
-
-<article class="post__content">  
+<article class="post__content">
+  <figure class="post__art">
+    <img
+      alt="{{ page.title }}"
+      src="/{{ site.file_path }}/{{ page.image }}.{{ site.file_format}}">
+    <figcaption>
+      <h2>{{ page.title }}</h2>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%a, %b %-d, %Y' }}</time>
+    </figcaption>
+  </figure>
   {{ content }}
 </article>
 
