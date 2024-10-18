@@ -4,10 +4,8 @@
 
 ## Todo
 
-- [x] Bring in web-font in-house.
-- [ ] Optimize the static assets, especially for the homepage.
-- [ ] Create the nothing page.
-- [ ] Move Jekyll Build to Github Workflow.
+- [ ] Create a Github Pages Template
+	- [ ] Create the nothing page.
 
 ### Info
 
